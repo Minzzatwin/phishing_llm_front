@@ -131,17 +131,17 @@ const MainScreen = ({ navigation }) => {
       </View>
 
       {/* 페이지 이동 버튼 */}
-      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('LogScreen')}>
+      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Log')}>
         <FontAwesome5 name="clipboard-list" size={18} color="#fff" />
         <Text style={styles.buttonText}>탐지 로그</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('DetectScreen')}>
+      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Detect')}>
         <FontAwesome5 name="search" size={18} color="#fff" />
         <Text style={styles.buttonText}>피싱 판별</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('CommunityScreen')}>
+      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Community')}>
         <FontAwesome5 name="comments" size={18} color="#fff" />
         <Text style={styles.buttonText}>커뮤니티</Text>
       </TouchableOpacity>

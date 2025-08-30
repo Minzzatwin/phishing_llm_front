@@ -33,7 +33,7 @@ export default function App() {
       {isLoading && (
         <View style={{ alignItems: 'center', marginTop: 30 }}>
           <LottieView
-            source={require('./assets/gradient loader 01.json')}
+            source={require('./components/gradient_loader_01.json')}
             autoPlay
             loop
             style={{ width: 300, height: 300 }}
